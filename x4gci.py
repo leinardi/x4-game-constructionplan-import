@@ -181,11 +181,12 @@ if __name__ == '__main__':
     tree = ElementTree.parse(parsed_args.path)
     root = tree.getroot()
 
+    # Dict[module name, module count]
     modules: Dict[str, int] = {}
 
     for entry in root.iter("entry"):
         macro = re.sub('_macro$', '', entry.attrib["macro"]).split('_')
-        # prod_gen -> gen_prod
+        # swapping to array indexes (prod_gen -> gen_prod)
         macro[0], macro[1] = macro[1], macro[0]
 
         if macro[1] == 'buildmodule':
@@ -227,7 +228,7 @@ if __name__ == '__main__':
         if 'research' not in macro:
             module = '_'.join(macro)
             if module in modules:
-                modules[module] = modules[module] + 1
+                modules[module] += 1
             else:
                 modules[module] = 1
 
