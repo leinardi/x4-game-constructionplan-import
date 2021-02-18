@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plans>
+<plan id="player_1586199576" name="Gate defender" description="">
+<patches>
+<patch extension="ego_dlc_split" version="100" name="Split Vendetta"/>
+</patches>
+<entry index="1" macro="dockarea_arg_m_station_02_macro">
+<offset>
+<position x="-868.527" y="4.346" z="-15.002"/>
+<rotation yaw="89.74264"/>
+</offset>
+</entry>
+<entry index="2" macro="defence_arg_disc_01_macro" connection="connectionsnap001">
+<predecessor index="1" connection="connectionsnap004"/>
+<offset>
+<position x="-468.531" y="4.346" z="-13.205"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="3" macro="pier_par_harbor_02_macro" connection="connectionsnap004">
+<predecessor index="2" connection="connectionsnap002"/>
+<offset>
+<position x="-268.533" y="4.346" z="-12.307"/>
+<rotation yaw="179.74258"/>
+</offset>
+</entry>
+<entry index="4" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+<predecessor index="1" connection="connectionsnap001"/>
+<offset>
+<position x="-870.324" y="4.346" z="384.994"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="5" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+<predecessor index="1" connection="connectionsnap002"/>
+<offset>
+<position x="-866.729" y="4.346" z="-414.998"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="6" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+<predecessor index="1" connection="connectionsnap003"/>
+<offset>
+<position x="-1268.522" y="4.346" z="-16.799"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="7" macro="defence_arg_disc_01_macro" connection="connectionsnap003">
+<predecessor index="4" connection="connectionsnap004"/>
+<offset>
+<position x="-872.12" y="4.346" z="784.99"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="8" macro="defence_arg_disc_01_macro" connection="connectionsnap004">
+<predecessor index="5" connection="connectionsnap003"/>
+<offset>
+<position x="-864.933" y="4.346" z="-814.994"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="9" macro="defence_arg_disc_01_macro" connection="connectionsnap002">
+<predecessor index="6" connection="connectionsnap001"/>
+<offset>
+<position x="-1668.518" y="4.346" z="-18.596"/>
+<rotation yaw="89.74264"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group02"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group03"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group01"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group04"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group02" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group03" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group01" exact="2"/>
+<turrets macro="turret_arg_m_flak_02_mk1_macro" path=".." group="group04" exact="2"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group05" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group06" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group07" exact="4"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group08" exact="4"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="10" macro="defence_par_disc_01_macro" connection="connectionsnap002">
+<predecessor index="8" connection="connectionsnap003"/>
+<offset>
+<position x="-863.136" y="4.346" z="-1214.99"/>
+<rotation yaw="-0.257352"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group02" exact="2"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group01" exact="2"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group02" exact="6"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group01" exact="6"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group05" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group06" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group07" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group08" exact="2"/>
+</groups>
+</upgrades>
+</entry>
+<entry index="11" macro="defence_par_disc_01_macro" connection="connectionsnap001">
+<predecessor index="7" connection="connectionsnap004"/>
+<offset>
+<position x="-873.917" y="4.346" z="1184.986"/>
+<rotation yaw="-0.257374"/>
+</offset>
+<upgrades>
+<groups>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group02" exact="2"/>
+<shields macro="shield_tel_l_standard_01_mk2_macro" path=".." group="group01" exact="2"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group05"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group06"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group07"/>
+<shields macro="shield_tel_m_standard_02_mk2_macro" path=".." group="group08"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group02" exact="6"/>
+<turrets macro="turret_arg_l_plasma_01_mk1_macro" path=".." group="group01" exact="6"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group05" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group06" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group07" exact="2"/>
+<turrets macro="turret_spl_m_flak_02_mk1_macro" path=".." group="group08" exact="2"/>
+</groups>
+</upgrades>
+</entry>
+</plan>
+</plans>
